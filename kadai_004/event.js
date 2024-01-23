@@ -1,0 +1,12 @@
+ //HTMLドキュメントが読み込まれたら実行
+  $(window).on('load', function() {
+    console.log('loadイベントが発生しました');
+  });
+
+  //スクロールされたら実行
+  $(window).on(`scroll`,() => {
+    console.log(`scrollイベントが発生しました`);
+  });
+
+
+
